@@ -39,17 +39,17 @@ const eleccion = ["Piedra", "Papel", "Tijeras"];export default function App()
         <button 
           onClick={() => setSeleccion("Piedra")}
         >
-          <img src={piedra} ></img>  
+          <img src={piedra} alt="Piedra"></img>  
           </button>
         <button 
           onClick={() => setSeleccion("Papel")}
         >
-          <img src={papel} ></img>
+          <img src={papel} alt="Papel"></img>
           </button>
         <button 
           onClick={() => setSeleccion("Tijeras")}
           >
-            <img src={Tijeras} ></img>
+            <img src={Tijeras}alt="Tijeras"></img>
           </button>
           
       </div>
