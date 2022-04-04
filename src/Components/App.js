@@ -39,7 +39,7 @@ const eleccion = ["Piedra", "Papel", "Tijeras"];export default function App()
         <button 
           onClick={() => setSeleccion("Piedra")}
         >
-          <img src={piedra} ></img>
+          <img src={piedra} ></img>  
           </button>
         <button 
           onClick={() => setSeleccion("Papel")}
